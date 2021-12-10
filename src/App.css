@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+body{
+  background-color: #44bcd8;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,9 +29,13 @@
   color: white;
 }
 
+  
+
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +44,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inner
+{
+    display: inline-block;
+}
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+
+.numberWidth{
+  width: 50px;
+  color: black;
+}
+
+.calculatorOut{
+  border-style: solid;
+  border: "blue";
+  border-width: 5px;
+  width: 30%;
+  margin:0 auto;
+  color: #80391e;
+}
+
+.sumOut{
+  width: 30%;
+  margin:0 auto;
+}
+
+
+button{
+  width: 30px;
+  height: 30px;
+
 }
