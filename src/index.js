@@ -3,7 +3,7 @@
 import React, {Component} from 'react';
 // Importing Module
 import ReactDOM from 'react-dom';
-import Demo from './demo.js';
+import Counter from './counter.js';
 // Importing CSS
 import './index.css';
 
@@ -12,7 +12,7 @@ class App extends Component {
   render()
   {
       return (<div>
-      <Demo title="GeeksforGeeks" /></div>);
+      <Counter title="GeeksforGeeks" /></div>);
   }
 }
 
